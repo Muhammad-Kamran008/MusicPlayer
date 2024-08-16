@@ -15,11 +15,9 @@ import com.example.musicplayer.utils.Constants
 import com.google.android.material.snackbar.Snackbar
 
 
-@Suppress("UNREACHABLE_CODE")
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val PERMISSION_REQ_NOTIFICATION = 100
-
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

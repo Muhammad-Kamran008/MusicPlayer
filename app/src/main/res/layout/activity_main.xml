@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <include
-        layout="@layout/music_player"
-        android:id="@+id/player" />
+<!--    <include-->
+<!--        layout="@layout/music_player"-->
+<!--        android:id="@+id/player" />-->
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"

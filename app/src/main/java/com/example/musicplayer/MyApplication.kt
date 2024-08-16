@@ -7,6 +7,7 @@ import android.os.Build
 import com.example.musicplayer.utils.Constants
 
 class MyApplication : Application() {
+
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
