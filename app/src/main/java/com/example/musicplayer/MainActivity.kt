@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.make(
                     this,
                     binding.root,
-                    "Permission Not Granted",
+                    "Permission is Not Granted",
                     Snackbar.LENGTH_SHORT
                 )
                     .show()
